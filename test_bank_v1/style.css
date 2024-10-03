@@ -1,0 +1,291 @@
+*{text-decoration: none;
+    list-style-type: none;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-o-box-sizing: border-box;
+  	box-sizing: border-box;
+    font-family: 'Istok Web';
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.visit_card {
+		display: flex;
+		justify-content: space-between;
+}
+
+#phones {
+		display: inline-block;
+		line-height: 0.2;
+		color: #fd6a02;
+		font-size: 28px;
+		margin: 0 15px;
+		padding-top: 10px;
+    width: 200px;
+    left: 1310px;
+    position: absolute;
+}
+
+.menu {
+		display: table;
+		background:#000;
+		height: 50px;
+		margin-left: 20px;
+		padding-left: 0;
+		width: 1505px;
+}
+
+.menu li {
+		display: table-cell;
+}
+
+.menu li a {
+		display: block;
+		background: #000;
+		color: #fff;
+		font-family: Arial;
+		text-align: center;
+		line-height: 50px;
+		text-decoration: none;
+		border-right: 1px solid #fd6a02;
+}
+
+#active_menu {
+		background: #fd6a02;
+}
+
+.bread_crumbs {
+  padding: 0px 50px;
+  list-style: none;
+}
+
+.bread_crumbs li {
+  display: inline;
+  font-size: 16px;
+}
+
+.bread_crumbs li+li:before {
+  padding: 0px;
+  color: black;
+  content: "- ";
+}
+
+.bread_crumbs li a {
+  color: black;
+  text-decoration: underline;
+}
+
+.calculator_show {
+		display: block;
+		background-color: #f7f5f3;
+		width: 1030px;
+		margin-left: 45px;
+		margin-top: -10px;
+		margin-bottom: 30px;
+		position: absolute;
+}
+
+.calculator_hide {
+		display: none;
+}
+
+#calc_name {
+		color: #fd6a02;
+		font-size: 38px;
+		margin-top: 35px;
+		margin-bottom: 0px;
+		padding-left: 120px;
+}
+
+#date_of_registration_of_the_deposit {
+		margin-top: 30px;
+		padding-left: 50px;
+}
+
+#date_of_registration_of_the_deposit p {
+		display: inline;
+		margin-right: 20px;
+}
+
+#date_of_registration_of_the_deposit input {
+		display: inline;
+		font-size: 16px;
+		width: 140px;
+}
+
+#deposit_amount {
+		margin-top: 5px;
+		padding-left: 125px;
+}
+
+#deposit_amount p {
+		display: inline-block;
+		margin-right: 20px;
+		margin-top: 20px;
+		vertical-align: top;
+}
+
+input[type=number] {
+		display: inline;
+		font-size: 16px;
+		width: 140px;
+		margin-right: 10px;
+		margin-top: 20px;
+		vertical-align: top;
+}
+
+.range {
+		display: inline-block;
+		margin-top: 20px;
+}
+
+input[type=range] {
+		font-size: 16px;
+		width: 300px;
+		height: 8px;
+	  border-radius: 4px;
+	  background-color: #000;
+		overflow: hidden;
+		-webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	  width: 8px;
+	  height: 8px;
+	  border-radius: 10px;
+	  background-color: #fff;
+	  cursor: pointer;
+		margin-bottom: 14px;
+		box-shadow: -300px 0 0 300px green;
+		-webkit-appearance: none;
+}
+
+.range_list {
+	 display: flex;
+	 width: 100%;
+	 justify-content: space-between;
+}
+
+#deposit_term {
+		margin-top: 10px;
+		padding-left: 135px;
+}
+
+#deposit_term p {
+		display: inline;
+		margin-right: 20px;
+		margin-top: 20px;
+		vertical-align: top;
+}
+
+#deposit_term select {
+		display: inline;
+		font-size: 16px;
+		width: 140px;
+		height: 25px;
+}
+
+#deposit_replenishment {
+		margin-top: 20px;
+		padding-left: 85px;
+}
+
+#deposit_replenishment p {
+		display: inline;
+		font-size: 16px;
+		margin-right: 5px;
+		vertical-align: top;
+}
+
+#deposit_replenishment input {
+		display: inline;
+		font-size: 16px;
+		margin-left: 15px;
+		vertical-align: top;
+}
+
+#deposit_replenishment_amount {
+		margin-top: 5px;
+		padding-left: 40px;
+}
+
+#deposit_replenishment_amount p {
+		display: inline-block;
+		margin-right: 20px;
+		margin-top: 20px;
+		vertical-align: top;
+}
+
+#calculation {
+		display: flex;
+		margin-top: 5px;
+		padding-left: 40px;
+}
+
+#calculation input {
+		display: inline;
+		border-radius: 4px;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+		color: #fff;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		padding: 8px 16px;
+		margin: 0px 0px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-decoration: none;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+		background-color: rgb( 43, 153, 91 );
+		border: 1px solid rgb( 33, 126, 74 );
+}
+
+#result {
+		display: flex;
+		margin-top: 23px;
+		margin-left: 25px;
+}
+
+#result_success {
+		display: inline;
+		font-size: 14px;
+		color: darkgreen;
+		padding-top: 2px;
+}
+
+#result_score {
+		display: inline;
+		font-size: 16px;
+		padding-left: 5px;
+}
+
+#result_error {
+		display: inline;
+		font-size: 14px;
+		color: darkred;
+		padding-top: 2px;
+}
+
+footer {
+		background-color: #000;
+		color: #fff;
+		margin-left: 20px;
+		padding-left: 45px;
+		width: 1505px;
+		height: 70px;
+    bottom: 0;
+		justify-content: space-around;
+		position: fixed;
+}
+
+footer a {
+		display: inline-block;
+		color: #fff;
+		padding: 0 15px;
+		line-height: 40px;
+    text-decoration: underline;
+}
